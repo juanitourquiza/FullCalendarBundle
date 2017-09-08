@@ -66,7 +66,7 @@ services:
    app_bundle.service.listener:
         class: AppBundle\Listener\LoadDataListener
 	tags:
-   		- { name: 'kernel.event_listener', event: 'fullcalendar.set_data', method: loadData }
+           - { name: 'kernel.event_listener', event: 'fullcalendar.set_data', method: loadData }
 
 ```
 
